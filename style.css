@@ -108,7 +108,7 @@ nav {
     text-align: center;
     font-size: 29px;
     font-weight: 900;
- 
+
 }
 
 .sec-des {
@@ -128,7 +128,8 @@ nav {
     font-size: 14px;
     font-weight: 400;
 }
-.reason-sec{
+
+.reason-sec {
     display: flex;
     align-items: center;
     gap: 88px;
@@ -137,42 +138,50 @@ nav {
     padding: 43px;
 
 }
-.div-content{
+
+.div-content {
     display: flex;
     flex-direction: column;
     gap: 14px;
     line-height: 26px;
 }
-.reasonsec-2{
+
+.reasonsec-2 {
     flex-direction: row-reverse;
 }
-.inspiration{
+
+.inspiration {
     align-items: center;
     text-align: center;
 }
-.iframe{
-   display: flex;
-   padding: 50px 0;
+
+.iframe {
+    display: flex;
+    padding: 50px 0;
 }
-.cur-target{
+
+.cur-target {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-#current{
+
+#current {
     display: flex;
     flex-direction: column;
-   text-align: center;
-   gap: 20px;
+    text-align: center;
+    gap: 20px;
 }
-.card-div{
+
+.card-div {
     display: flex;
     justify-content: space-between;
     gap: 25px;
 
 }
-.card{
+
+.card {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -183,15 +192,87 @@ nav {
 
 
 }
-.card> img{
+
+.card>img {
     max-width: 20%;
 }
-.card-2{
+
+.card-2 {
     background-color: rgba(0, 76, 232, 0.05);
-  
+
 }
-.card-3{
+
+.card-3 {
     background: rgba(255, 223, 0, 0.05);
 
+
+}
+
+
+
+.sup-head {
+    color: white;
+    font-size: 30px;
+}
+
+.support {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(<path-to-image>),
+
+        url(./assets/handshake.jpg);
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sup {
+    color: #ffffff67;
+
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.input {
+    padding: 25px;
+    width: 500px;
+    border: none;
+    border-radius: 10px;
+}
+
+.input2 {
+    padding: 21px 25px;
+    width: 102px;
+    color: #0D1321;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.footer {
+    margin: 30px auto;
+    max-width: 1040px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.icon {
+    display: flex;
+    gap: 20px;
+}
+
+.f-des {
+    color: #0D1321;
+    font-size: 18px;
+
+    font-weight: 600;
 
 }
